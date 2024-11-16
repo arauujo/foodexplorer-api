@@ -35,7 +35,8 @@
         "noUnreachable": "error",
         "noUnusedVariables": "error",
         "useIsNan": "warn",
-        "useImportExtensions": "off"
+        "useImportExtensions": "off",
+        "noNodejsModules": "off"
       },
       "security": { "all": true, "noGlobalEval": "error" },
       "style": {
