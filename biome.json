@@ -100,10 +100,11 @@
     {
       "include": [
         "*.d.ts",
+        "*.spec.js",
         "*.{spec,test}.{js,ts,tsx}",
         "**/__{mocks,tests}__/**/*.{js,ts,tsx}"
       ],
-      "linter": { "rules": {} }
+      "linter": { "enabled": false }
     }
   ]
 }
